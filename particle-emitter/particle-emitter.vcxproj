@@ -72,23 +72,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Serjik\source\repos\particle-emitter\deps;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\glcontext\pipeline;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\glcontext\graphics;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\emitter\particle;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\emitter;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Serjik\source\repos\particle-emitter\deps;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)deps;$(SolutionDir)particle-emitter\include\glcontext\pipeline;$(SolutionDir)particle-emitter\include\glcontext\graphics;$(SolutionDir)particle-emitter\include\emitter\particle;$(SolutionDir)particle-emitter\include\emitter;$(SolutionDir)particle-emitter\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)deps;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Serjik\source\repos\particle-emitter\deps;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\glcontext\pipeline;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\glcontext\graphics;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\emitter\particle;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\emitter;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Serjik\source\repos\particle-emitter\deps;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)deps;$(SolutionDir)particle-emitter\include\glcontext\pipeline;$(SolutionDir)particle-emitter\include\glcontext\graphics;$(SolutionDir)particle-emitter\include\emitter\particle;$(SolutionDir)particle-emitter\include\emitter;$(SolutionDir)particle-emitter\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)deps;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Serjik\source\repos\particle-emitter\deps;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\glcontext\pipeline;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\glcontext\graphics;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\emitter\particle;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\emitter;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Serjik\source\repos\particle-emitter\deps;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)deps;$(SolutionDir)particle-emitter\include\glcontext\pipeline;$(SolutionDir)particle-emitter\include\glcontext\graphics;$(SolutionDir)particle-emitter\include\emitter\particle;$(SolutionDir)particle-emitter\include\emitter;$(SolutionDir)particle-emitter\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)deps;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\Serjik\source\repos\particle-emitter\deps;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\glcontext\pipeline;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\glcontext\graphics;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\emitter\particle;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include\emitter;C:\Users\Serjik\source\repos\particle-emitter\particle-emitter\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Serjik\source\repos\particle-emitter\deps;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)deps;$(SolutionDir)particle-emitter\include\glcontext\pipeline;$(SolutionDir)particle-emitter\include\glcontext\graphics;$(SolutionDir)particle-emitter\include\emitter\particle;$(SolutionDir)particle-emitter\include\emitter;$(SolutionDir)particle-emitter\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)deps;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
